@@ -111,9 +111,9 @@ New column count: 95 (was 80 after cleaning)
 
 **Question:** What does the typical home sale look like in Ames?
 
-![Chart 1](chart_1.png)
+![Chart 1](https://github.com/Mr-Mata/house-prices-ames/blob/main/Images/Chart_1_Sale_Distribution.png)
 
-**Finding:** Sale prices are right-skewed — most homes sold between **$100k–$250k**, but a small number of luxury properties pull the mean above the median. The median sale price is a more honest representation of the "typical" home than the mean.
+**Finding:** Sale prices are right-skewed, most homes sold between **$100k–$250k**, but a small number of luxury properties pull the mean above the median. The median sale price is a more honest representation of the "typical" home than the mean.
 
 | Stat | Value |
 |---|---|
@@ -122,7 +122,9 @@ New column count: 95 (was 80 after cleaning)
 | Mean | ~$181,000 |
 | Maximum | ~$755,000 |
 
-> The gap between mean and median confirms right skew — a few luxury homes inflate the average. For buyers, the typical Ames home is well under $200k.
+> The gap between mean and median confirms right skew, a few luxury homes inflate the average. For buyers, the typical Ames home is well under $200k.
+> 
+> Apply Log transformation to make the skewed data more normal.
 
 ---
 
