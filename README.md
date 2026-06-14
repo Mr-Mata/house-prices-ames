@@ -337,7 +337,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 **3. Add the dataset**
 
-Download `train.csv` and `test.csv` from [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and place them in a `dataset/` folder.
+Download `train.csv` and `test.csv` from [Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) and update the cell where you load the datasets with your actual file path.
 
 **4. Run the notebook**
 
